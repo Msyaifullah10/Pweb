@@ -1,0 +1,127 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: white;
+}
+
+.bgambar{
+    background-image: url(yellow.jpg);
+}
+ 
+.badan-utama
+{
+    max-width: 2000px;
+    height: 550px;
+    background-image: url("Logo.jpg");
+    animation-name: Good;
+    animation-duration: 7s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+    padding: 15px;
+    overflow: hidden;
+}
+ @keyframes Good{
+    0%{background-image: url(Logo.jpg);}
+    25% {background-image: url(gambar2.jpg);}
+    50% {background-image: url(gambar10.jpg);}
+    100% {background-image: url(gambar6.jpg);}
+ }
+header
+{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+    color: white;
+}
+ 
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+ 
+.navigasi li 
+{
+    float: left;
+    color: white;
+}
+ 
+.navigasi li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+ 
+.tombol
+{
+    display: block;
+    background-color: green;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+ 
+footer
+{
+    clear: both;
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+  
+ 
+/*untuk tablet*/
+@media screen and (max-width:1080px)
+{
+    .badan-utama
+    {
+        width: 100%;
+}
+ 
+/*untuk android*/
+@media screen and (max-width:780px)
+{
+    header h2, header p
+    {
+        text-align: center;
+    }
+ 
+    .navigasi li
+    {
+        float: none;
+    }
+}
+.p-item1 {
+    height: 50px;
+    width: 50px;
+}
+.garis-tepi {
+    border: 2px solid red;
+}
