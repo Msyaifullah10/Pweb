@@ -47,7 +47,7 @@ $query = mysqli_query($koneksi,"SELECT * FROM tb_gambar");
                 include('koneksi.php');
                 $query = mysqli_query($koneksi,"SELECT * FROM tb_gambar");
                 foreach ($query as $row) {
-                    echo "<img class='p-item1' src='image/".$row['nama_gambar']."'' alt='2k19'>";
+                    echo "<img src='image/".$row['nama_gambar']."'' alt='2k19' width='250' height='200'>";
                 }
 
                 ?>
